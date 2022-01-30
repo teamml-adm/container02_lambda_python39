@@ -1,0 +1,4 @@
+pandas
+watchtower
+pyarrow
+fastparquet
