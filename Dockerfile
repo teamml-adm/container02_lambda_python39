@@ -18,5 +18,6 @@ COPY requirements.txt ${LAMBDA_TASK_ROOT}
 # Pythonライブラリの導入
 RUN pip3 install -r requirements.txt
 
-# hander function
+# handler function
 CMD [ "main.handler" ]
+
